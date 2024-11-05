@@ -24,6 +24,11 @@ El proyecto se divide en dos partes:
 - OpenCV
 - NumPy
 
+## Instrucciones de Ejecución
+
+- Se deben tener las 7 imágenes guardadas en una carpeta 'images' a la hora de ejecutar el cuaderno.
+- Se le deben pasar las imágenes de izquierda a derecha, siendo la imagen 0 la primera, más a la izquierda, y la imagen 6 la última, más a la derecha. 
+
 ## Referencias
 
 - [Shapiro Linda - Image Stitching II](https://courses.cs.washington.edu/courses/cse576/17sp/notes/9_ImageStitching2-17.pdf)
