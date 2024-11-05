@@ -22,14 +22,6 @@ El proyecto se divide en dos partes:
 - **WarpTwoImages**: Deforma y une dos imágenes, corrigiendo los bordes negros y aplicando transformaciones de perspectiva.
 - **Cylinder Image Projection**: Proyecta imágenes en una superficie cilíndrica, útil para panorámicas amplias, con una función específica para ajustar las coordenadas.
 
-## Resultados Parte 1
-
-<img src="./Results/ProcesoParte1.png" alt="Imagenes" width="1000"/>
-
-## Resultados Parte 2
-
-<img src="./Results/ProcesoParte2.png" alt="Imagenes" width="1000"/>
-
 ## Requisitos
 
 - Python 3.x
@@ -39,7 +31,15 @@ El proyecto se divide en dos partes:
 ## Instrucciones de Ejecución
 
 - Se deben tener las 7 imágenes guardadas en una carpeta 'images' a la hora de ejecutar el cuaderno.
-- Se le deben pasar las imágenes de izquierda a derecha, siendo la imagen 0 la primera, más a la izquierda, y la imagen 6 la última, más a la derecha. 
+- Se le deben pasar las imágenes de izquierda a derecha, siendo la imagen 0 la primera, más a la izquierda, y la imagen 6 la última, más a la derecha.
+
+## Resultados Parte 1
+
+<img src="./Results/ProcesoParte1.png" alt="Imagenes" width="1000"/>
+
+## Resultados Parte 2
+
+<img src="./Results/ProcesoParte2.png" alt="Imagenes" width="1000"/>
 
 ## Referencias
 
