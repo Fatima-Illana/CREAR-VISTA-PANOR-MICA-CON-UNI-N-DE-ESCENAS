@@ -10,7 +10,9 @@ El proyecto se divide en dos partes:
 
 <img src="./Results/Imagenes.png" alt="Imagenes" width="1000"/>
 
-3. **Unión de siete imágenes con proyección cilíndrica**: Crea una panorámica extendida empleando siete imágenes y proyectándolas en un plano cilíndrico para reducir la distorsión en los bordes. Esta sección introduce una función de proyección cilíndrica, basada en cálculos de distancia focal y coordenadas 3D, antes de la unión de las imágenes.
+2. **Unión de siete imágenes con proyección cilíndrica**: Crea una panorámica extendida empleando siete imágenes y proyectándolas en un plano cilíndrico para reducir la distorsión en los bordes. Esta sección introduce una función de proyección cilíndrica, basada en cálculos de distancia focal y coordenadas 3D, antes de la unión de las imágenes.
+
+<img src="./Results/ImagenesCilindricas.jpg" alt="Imagenes" width="1000"/>
 
 ## Funcionalidades Principales
 
@@ -19,6 +21,14 @@ El proyecto se divide en dos partes:
 - **RANSAC Homography**: Calcula la homografía entre imágenes para aplicar la transformación necesaria y unirlas.
 - **WarpTwoImages**: Deforma y une dos imágenes, corrigiendo los bordes negros y aplicando transformaciones de perspectiva.
 - **Cylinder Image Projection**: Proyecta imágenes en una superficie cilíndrica, útil para panorámicas amplias, con una función específica para ajustar las coordenadas.
+
+## Resultados Parte 1
+
+<img src="./Results/ProcesoParte1.png" alt="Imagenes" width="1000"/>
+
+## Resultados Parte 2
+
+<img src="./Results/ProcesoParte2.png" alt="Imagenes" width="1000"/>
 
 ## Requisitos
 
