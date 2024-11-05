@@ -8,7 +8,7 @@ El proyecto se divide en dos partes:
 
 1. **Unión de cinco imágenes**: Genera una panorámica a partir de cinco imágenes. La imagen central se mantiene sin deformar, mientras que las imágenes laterales se ajustan usando homografías para formar una única vista continua.
 
-<img src="./Results/Images.png" alt="Images" width="1000"/>
+<img src="./Results/Imagenes.png" alt="Imagenes" width="1000"/>
 
 3. **Unión de siete imágenes con proyección cilíndrica**: Crea una panorámica extendida empleando siete imágenes y proyectándolas en un plano cilíndrico para reducir la distorsión en los bordes. Esta sección introduce una función de proyección cilíndrica, basada en cálculos de distancia focal y coordenadas 3D, antes de la unión de las imágenes.
 
