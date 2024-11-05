@@ -2,6 +2,10 @@
 
 Este proyecto genera panorámicas a partir de múltiples imágenes mediante técnicas de emparejamiento de características (SIFT, BF KNN Matcher) y homografía (RANSAC). Incluye la proyección cilíndrica para reducir distorsiones en panorámicas amplias, uniendo imágenes en un formato continuo.
 
+## Autor
+
+- [Fátima Fuchun Illana Guerra](https://github.com/Fatima-Illana)
+
 ## Descripción
 
 El proyecto se divide en dos partes:
