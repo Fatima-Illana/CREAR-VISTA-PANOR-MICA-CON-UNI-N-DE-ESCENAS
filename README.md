@@ -1,6 +1,6 @@
 # Proyecto de Creación de Imágenes Panorámicas
 
-Este proyecto permite crear imágenes panorámicas a partir de varias fotografías, usando métodos avanzados de procesamiento de imágenes y emparejamiento de características.
+Este proyecto genera panorámicas a partir de múltiples imágenes mediante técnicas de emparejamiento de características (SIFT, BF KNN Matcher) y homografía (RANSAC). Incluye la proyección cilíndrica para reducir distorsiones en panorámicas amplias, uniendo imágenes en un formato continuo.
 
 ## Descripción
 
@@ -31,8 +31,11 @@ El proyecto se divide en dos partes:
 
 ## Referencias
 
-- [Shapiro Linda - Image Stitching II](https://courses.cs.washington.edu/courses/cse576/17sp/notes/9_ImageStitching2-17.pdf)
-- [Royshil - Función de Warping Cilíndrico](https://gist.github.com/royshil/0b21e8e7c6c1f46a16db66c384742b2b)
+- [1] Baumel, L. y Buenaposada José M. (2023). *Fundamentos de Análisis de Imágenes*. UPM. Tema 4. Descripción de Imágenes Digitales.
+- [2] Valle, R. (2023). *Fundamentos de Análisis de Imágenes*. UPM. Unit 4. Matching.
+- [3] Valle, R. (2023). *Fundamentos de Análisis de Imágenes*. UPM. Unit 3. Feature Selection.
+- [4] Royshil. [Función de Warping Cilíndrico](https://gist.github.com/royshil/0b21e8e7c6c1f46a16db66c384742b2b).
+- [5] Shapiro, L. [Image Stitching II](https://courses.cs.washington.edu/courses/cse576/17sp/notes/9_ImageStitching2-17.pdf).
 
 
 
